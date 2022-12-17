@@ -1,0 +1,14 @@
+.form-control-plaintext {
+  width: 50%;
+  /*margin-left: auto;*/
+  margin-right: auto;
+  /*margin-bottom: auto;*/
+  /*margin-top: auto;*/
+}
+
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
