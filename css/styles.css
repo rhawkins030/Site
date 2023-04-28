@@ -54,13 +54,14 @@ body {
 }
 
 nav {
- background-color: #3f3f3fef;
+ background-color: rgba(63, 63, 63, 0.3);
  color: #fff;
  display: flex;
  justify-content: space-between;
  align-items: center;
  height: 70px;
  padding: 0 20px;
+
 }
 
 .nav-container {
