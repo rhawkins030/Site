@@ -54,7 +54,7 @@ body {
 }
 
 nav {
- background-color: rgba(63, 63, 63, 0.3);
+ background-color: rgba(63, 63, 63, 0.4);
  color: #fff;
  display: flex;
  justify-content: space-between;
