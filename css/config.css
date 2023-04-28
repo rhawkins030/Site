@@ -1,0 +1,88 @@
+
+
+
+/*
+*
+*
+* Here, add all the configurations (Imports, font-size, etc)
+*
+*
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+a [href^="#"] {
+	transition: 0.5s;
+}
+
+a [href^="#"]:hover {
+	background-color: #ddd;
+}
+
+a [href^="#"]:active {
+	background-color: #ccc;
+	scroll-behavior: smooth;
+}
+
+* {
+ font-family: 'Roboto', sans-serif;
+ color: white;
+}
+
+h1 {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 900;
+}
+
+h2 {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700;
+}
+
+h3 {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+}
+
+hr {
+	height: 2px; 
+ background-color: #ffffff; 
+ width: 100%; 
+}
+
+p {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+}
+
+button {
+ color: white;
+ background-color: #0d6efd;
+ border-color: #0d6efd;
+ border-radius: 5px !important;
+ padding: 5px 5px;
+ font-size: 16px;
+ font-weight: bold;
+ text-transform: uppercase;
+ transition: all 0.3s ease-in-out;
+ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+ font: 1rem 'Fira Sans', sans-serif;
+	margin: 1rem;
+}
+
+input {
+	width:15px;
+ height:15px;
+}
