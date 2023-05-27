@@ -54,7 +54,7 @@ body {
 }
 
 nav {
- background-color: rgba(11, 92, 230, .4);
+ background-color: rgba(0, 36, 99, 0.4);
  color: #fff;
  display: flex;
  justify-content: space-between;
@@ -110,7 +110,7 @@ nav {
 }
 
 .nav-links a:hover {
- color: #2b7ffd !important;
+ color: #85b6ff !important;
  position: relative;
 }
 
@@ -126,7 +126,7 @@ nav {
 }
 
 .discord-button {
- color: #2b7ffd !important;
+ color: #ffffff !important;
 }
 
 @keyframes slide-in {
@@ -209,7 +209,7 @@ nav {
 }
 
 .btn-table button {
- background-color: rgb(16, 84, 211);
+  background-color: rgb(16, 84, 211);
  color: white;
  border: none;
  padding: 10px 20px;
