@@ -1,98 +1,100 @@
 
 
 
-/*
-*
-*
-* CSS for careers page
-* U can change this page as u wish. Do not change the @media which manages the mobile version, if u are not very 
-* good in Responsive, contact the developer.
-*
-*
-*/
+  /*
+  *
+  *
+  * CSS for careers page
+  * U can change this page as u wish. Do not change the @media which manages the mobile version, if u are not very 
+  * good in Responsive, contact the developer.
+  *
+  *
+  */
 
 
 
-.content {
- padding: 20px 0px 20px 0px;
-}
+  .content {
+    padding: 20px 0px 20px 0px;
+  }
 
-.content h3 {
- margin-bottom: 20px;
- color: #f0ff23;
- font-weight: 700;
-}
+  .content h3 {
+    margin-bottom: 20px;
+    color: #f0ff23;
+    font-weight: 700;
+  }
 
-.table-wrapper {
- overflow-x: auto;
-}
+  .table-wrapper {
+    overflow-x: auto;
+  }
 
-table {
- border-collapse: collapse;
- width: 100%;
-}
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
 
-td {
- padding: 5px;
- border: 1px solid black;
- position: relative;
- cursor: pointer;
-}
+  td {
+    padding: 5px;
+    border: 1px solid black;
+    position: relative;
+    cursor: pointer;
+  }
 
-td a {
- color: white;
- text-decoration: none;
-}
+  td a {
+    color: white;
+    text-decoration: none;
+  }
 
-td a:hover {
- color: black;
-}
+  td a:hover {
+    color: black;
+  }
 
-.left-column:hover,
-.right-column:hover {
- background-color: #56e9e2;
-}
+  .left-column:hover,
+  .right-column:hover {
+    background-color: #56e9e2;
+  }
 
-.left-column:hover ~ .right-column,
-.right-column:hover ~ .left-column {
- background-color: transparent;
-}
+  .left-column:hover ~ .right-column,
+  .right-column:hover ~ .left-column {
+    background-color: transparent;
+  }
 
-.left-column:hover {
- color: black;
- font-weight: 700;
-}
+  .left-column:hover {
+    color: black;
+    font-weight: 700;
+  }
 
-.right-column:hover {
- color: black;
- font-weight: 700;
-}
+  .right-column:hover {
+    color: black;
+    font-weight: 700;
+  }
 
-.left-column {
- width: 50%;
-}
+  .left-column {
+    width: 50%;
+  }
 
-.right-column {
- width: 50%;
- position: relative;
-}
+  .right-column {
+    width: 50%;
+    position: relative;
+  }
 
-@media only screen and (max-width: 767px) {
- .contents-table {
-   font-size: 12px;
-   margin-top: 10px;
- }
- .left-column, .right-column {
-   display: block;
-   width: 100%;
-   text-align: center;
-   padding: 10px 0;
- }
- .left-column a, .right-column a {
-   padding: 15px;
- }
+  @media only screen and (max-width: 767px) {
+    .contents-table {
+      font-size: 12px;
+      margin-top: 10px;
+    }
 
- .container p {
-  font-size: 12px;
- }
-}
+    .left-column, .right-column {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
+    
+    .left-column a, .right-column a {
+      padding: 15px;
+    }
+
+    .container p {
+      font-size: 12px;
+    }
+  }
