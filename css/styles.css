@@ -1,361 +1,343 @@
 
 
 
-/*
-*
-*
-* CSS for the page Index.html.
-* U can change this page as u wish. Do not change the @media which manages the mobile version, if u are not very 
-* good in Responsive, contact the developer.
-*
-*
-*/
+  /*
+  *
+  *
+  * CSS for the page Index.html.
+  * U can change this page as u wish. Do not change the @media which manages the mobile version, if u are not very 
+  * good in Responsive, contact the developer.
+  *
+  *
+  */
 
 
 
-/* Largeur de la barre de défilement */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Couleur de fond de la barre de défilement */
-::-webkit-scrollbar-track {
-  background-color: #2d3791;
-}
-
-/* Couleur de la poignée de la barre de défilement */
-::-webkit-scrollbar-thumb {
-  background-color: #3949da;
-  border-radius: 5px;
-}
-
-/* Effet de survol sur la poignée de la barre de défilement */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
-}
-
-
-body {
- background: radial-gradient(circle, rgb(37, 8, 104) 0%, rgb(27, 24, 61) 87%);
- animation: gradient 15s ease infinite;
- background-size: 120% 200%;
-}
-
-@keyframes gradient {
- 0% {
-   background-position: 0% 50%;
- }
- 50% {
-   background-position: 100% 50%;
- }
- 100% {
-   background-position: 0% 50%;
- }
-}
-
-nav {
- background-color: rgba(0, 36, 99, 0.4);
- color: #fff;
- display: flex;
- justify-content: space-between;
- align-items: center;
- height: 70px;
- padding: 0 20px;
-
-}
-
-.nav-container {
- display: flex;
- align-items: center;
- justify-content: space-between;
- width: 100%;
-}
-
-.logo-link {
- display: flex;
- align-items: center;
- text-decoration: none;
- font-size: 1.2rem;
- font-weight: bold;
-}
-
-.logo-link img {
- margin-right: 10px;
-}
-
-.nav-links-container {
- display: none;
-}
-
-.nav-links-container.show {
- display: block;
-}
-
-.nav-links {
- list-style: none;
- margin: 0;
- padding: 0;
- display: flex;
-}
-
-.nav-links li {
- margin-left: 20px;
-}
-
-.nav-links a {
- color: #fff;
- text-decoration: none;
- font-size: 1rem;
- font-weight: bold;
-}
-
-.nav-links a:hover {
- color: #85b6ff !important;
- position: relative;
-}
-
-.nav-links a:hover::before {
- content: "";
- position: absolute;
- width: 100%;
- height: 3px;
- bottom: -3px;
- left: 0;
- background-color: #ffffff !important;
- animation: slide-in 0.2s ease-in-out forwards;
-}
-
-.discord-button {
- color: #ffffff !important;
-}
-
-@keyframes slide-in {
- 0% {
-   transform: scaleX(0);
- }
- 100% {
-   transform: scaleX(1);
- }
-}
-
-@media (min-width: 768px) {
- .nav-links-container {
-   display: block;
- }
-}
-/* Products code */
-.products {
-  background-color:#222;
-  
-}
-
-.products:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s;
- }
- .products:active {
-  transform: scale(1.1);
-  transition: transform 0.5s;
- }
- 
- .products:not(:hover) {
-  transform: scale(1.0);
-  transition: transform 0.5s;
- }
- 
-
-
-/*
-*
-*
-* CONTAINER PAGE
-* U can change this page as u wish. Do not change the @media which manages the mobile version, if u are not very 
-* good in Responsive, contact the developer.
-*
-*
-*/
-
-
-
-.container {
- margin-top: 30px;
- margin-bottom: 150px;
-}
-
-.section-content {
- margin-top: 100px;
-}
-
-.section-content h1 {
- font-size: 50px;
-}
-
-.txt-anim {
- font-size: 20px;
-}
-
-.bkg-cursor {
- font-size: 20px;
- animation: blink 1s infinite;
-}
-
-@keyframes blink {
- 50% {
-     opacity: 0;
- }
-}
-
-.content h1 {
- color: #f5da42;
-}
-
-@media screen and (max-width: 768px) {
- .section-content h1 {
-  font-size: 35px;
- }
-
- .txt-anim {
-  font-size: 14px;
- }
-
- .section-content p {
-  font-size: 11px;
- }
-}
-
-.why-lunes-section h2 {
- padding: 20px 0px 20px 0px;
-}
-.btn-table {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn-table button {
-  background-color: rgb(16, 84, 211);
- color: white;
- border: none;
- padding: 10px 20px;
- font-size: 16px;
- border-radius: 5px;
- cursor: pointer;
- margin-right: 10px;
- margin-top: 15px;
- margin-bottom: 20px;
- transition: all 0.2s ease-in-out;
- ;
-}
-.btn-table button:last-child {
- margin-right: 0;
-}
-.btn-table button:hover {
- transform: translateY(-3px);
- box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-}
-.btn-table button:active {
- transform: translateY(0px);
- box-shadow: none;
-}
-
-
-
-/*
-*
-*
-* FOOTER PAGE
-*
-*
-*/
-
-
-
-footer {
- background-color: #222;
- position: relative;
- left: 0; 
- bottom: 0;
- width: 100%!important;
- width: 100% ;
- padding: 50px;
- font-size: 14px;
- }
- 
-.footer-container {
- max-width: 1200px;
- margin: 0 auto;
- display: flex;
- justify-content: space-between;
- align-items: center;
-}
- 
-.footer-links {
- list-style: none;
- padding: 0;
- margin: 0;
- display: flex;
- }
- 
-.footer-links li {
- margin-right: 20px;
- }
-
-.footer-links li a {
- color: white;
- text-decoration: none;
- font-size: 15px;
-}
- 
-.footer-links li:last-child {
- margin-right: 0;
-}
- 
-.text-muted {
- color: #777;
-}
- 
-@media screen and (max-width: 768px) {
- .footer-container {
- flex-direction: column;
- align-items: flex-start;
- }
- 
- .footer-links {
- margin-top: 20px;
- }
- 
- .footer-links li {
- margin-right: 0;
- margin-bottom: 10px;
- margin-left: 10px;
- }
- 
- .text-muted {
- margin-top: 20px;
- margin-left: 10px;
- }
-
- table {
-  font-size: 12px;
- }
-
- .why-lunes-section li {
-  font-size: 13px;
- }
-
- .btn-table button {
-  font-size: 12px;
- }
-
- .per-month p {
-  font-size: 12px;
- }
-
- .footer-links li a {
-  font-size: 13px;
- }
-
- .text-muted {
-  font-size: 13px;
+  /* Scrollbar width */
+  ::-webkit-scrollbar {
+    width: 10px;
   }
-}
+
+  /* Scrollbar background color */
+  ::-webkit-scrollbar-track {
+    background-color: #2d3791;
+  }
+
+  /* Scroll bar handle color */
+  ::-webkit-scrollbar-thumb {
+    background-color: #3949da;
+    border-radius: 5px;
+  }
+
+  /* Hover effect on scroll bar handle */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+  body {
+    background: radial-gradient(circle, rgb(44, 9, 127) 0%, rgb(27, 24, 61) 87%);
+    animation: gradient 15s ease infinite;
+    background-size: 120% 200%;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  nav {
+    background-color: rgba(0, 49, 134, 0.4);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .logo-link img {
+    margin-right: 10px;
+  }
+
+  .nav-links-container {
+    display: none;
+  }
+
+  .nav-links-container.show {
+    display: block;
+  }
+
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .nav-links a:hover {
+    color: #85b6ff !important;
+    position: relative;
+  }
+
+  .nav-links a:hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -3px;
+    left: 0;
+    background-color: #ffffff !important;
+    animation: slide-in 0.2s ease-in-out forwards;
+  }
+
+  .discord-button {
+    color: #ffffff !important;
+  }
+
+  @keyframes slide-in {
+    0% {
+      transform: scaleX(0);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .nav-links-container {
+      display: block;
+    }
+  }
+  
+
+  /*
+  *
+  *
+  * CONTAINER PAGE
+  * U can change this page as u wish. Do not change the @media which manages the mobile version, if u are not very 
+  * good in Responsive, contact the developer.
+  *
+  *
+  */
+
+
+  .container {
+    margin-top: 30px;
+    margin-bottom: 150px;
+  }
+
+  .section-content {
+    margin-top: 100px;
+  }
+
+  .section-content h1 {
+    font-size: 50px;
+  }
+
+  .txt-anim {
+    font-size: 20px;
+  }
+
+  .bkg-cursor {
+    font-size: 20px;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .content h1 {
+    color: #f5da42;
+  }
+
+  @media screen and (max-width: 768px) {
+    .section-content h1 {
+      font-size: 35px;
+    }
+
+    .txt-anim {
+      font-size: 14px;
+    }
+
+    .section-content p {
+      font-size: 11px;
+    }
+  }
+
+  .why-lunes-section h2 {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .btn-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-table button {
+    background-color: rgb(16, 84, 211);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .btn-table button:last-child {
+    margin-right: 0;
+  }
+
+  .btn-table button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .btn-table button:active {
+    transform: translateY(0px);
+    box-shadow: none;
+  }
+
+
+  /*
+  *
+  *
+  * FOOTER PAGE
+  *
+  *
+  */
+
+
+  footer {
+    background-color: #222;
+    position: relative;
+    left: 0; 
+    bottom: 0;
+    width: 100%!important;
+    width: 100% ;
+    padding: 50px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  .footer-links a:hover {
+    color: #b8b8b8;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+
+  .footer-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .text-muted {
+    color: #777;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .footer-links {
+      margin-top: 20px;
+    }
+    
+    .footer-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    
+    .text-muted {
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+
+    table {
+      font-size: 12px;
+    }
+
+    .why-lunes-section li {
+      font-size: 13px;
+    }
+
+    .btn-table button {
+      font-size: 12px;
+    }
+
+    .per-month p {
+      font-size: 12px;
+    }
+
+    .footer-links li a {
+      font-size: 13px;
+    }
+
+    .text-muted {
+      font-size: 13px;
+    }
+  }

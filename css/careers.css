@@ -1,52 +1,52 @@
 
 
 
-/*
-*
-*
-* CSS for careers page
-* U can change this page as u wish. Do not change the @media which manages the mobile version, if u are not very 
-* good in Responsive, contact the developer.
-*
-*
-*/
+    /*
+    *
+    *
+    * CSS for careers page
+    * U can change this page as u wish. Do not change the @media which manages the mobile version, if u are not very 
+    * good in Responsive, contact the developer.
+    *
+    *
+    */
 
 
-.container {
- text-align: center;
-}
+    .container {
+        text-align: center;
+    }
 
-.container h2 {
- color: #f5da42;
- font-weight: 700;
- padding: 20px 0px 20px 0px;
- text-decoration: underline;
-}
+    .container h2 {
+        color: #f5da42;
+        font-weight: 700;
+        padding: 20px 0px 20px 0px;
+        text-decoration: underline;
+    }
 
-.container h3 {
- color: #42b6f5;
- padding: 10px 0px 10px 0px;
-}
+    .container h3 {
+        color: #42b6f5;
+        padding: 10px 0px 10px 0px;
+    }
 
-.container h6 {
- font-size: 16px;
-}
+    .container h6 {
+        font-size: 16px;
+    }
 
-.container p {
- font-size: 16px;
- padding: 10px 0px 10px 0px;
-}
+    .container p {
+        font-size: 16px;
+        padding: 10px 0px 10px 0px;
+    }
 
-i {
- margin-right: 10px;
-}
+    i {
+        margin-right: 10px;
+    }
 
-@media screen and (max-width: 768px) {
- .plans-section h6 {
-  font-size: 15px;
- }
+    @media screen and (max-width: 768px) {
+        .plans-section h6 {
+            font-size: 15px;
+        }
 
- .container p {
-  font-size: 13px;
- }
-}
+        .container p {
+            font-size: 13px;
+        }
+    }
