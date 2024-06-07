@@ -63,10 +63,10 @@ const isLightMode = localStorage.getItem('isLightMode');
 
 function setMode(mode) {
   if (mode === 'light') {
-    root.classList.remove('dark-mode');
+    root.classList.add('light-mode');
     localStorage.setItem('isLightMode', 'true');
   } else {
-    root.classList.add('dark-mode');
+    root.classList.remove('light-mode');
     localStorage.removeItem('isLightMode');
   }
 }
@@ -88,7 +88,7 @@ setInterval(function() {
 
 modeToggleBtn.forEach(button => {
   button.addEventListener('click', function() {
-    const currentMode = root.classList.contains('dark-mode') ? 'light' : 'dark';
+    const currentMode = root.classList.contains('light-mode') ? 'dark' : 'light';
     setMode(currentMode);
   })
 });
