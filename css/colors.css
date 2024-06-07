@@ -1,4 +1,4 @@
-:root.dark-mode {
+:root {
     --nightTop: #121847;
     --nightBottom: #273298;
     --dropShadow: #273296c4;
@@ -71,7 +71,7 @@
     --rocket: url(../assets/shuttleSpaceLight.svg);
 }
 
-:root {
+:root.light-mode {
     --nightTop: #273296cc;
     --nightBottom: #27329800;
     --dropShadow: #273298c4;
