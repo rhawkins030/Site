@@ -141,6 +141,12 @@
     background-size: contain;
 }
 
+.moonClouds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .moon {
     display: flex !important;
     align-items: center;
@@ -167,22 +173,26 @@
     animation: fly1 .7s forwards;
     opacity: 0;
     animation-delay: .4s;
+    display: none;
 }
 
 .fly2 {
     animation: fly2 .7s forwards;
     opacity: 0;
     animation-delay: .4s;
+    display: none;
 }
 
 @keyframes fly1 {
     0% {
         transform: translateX(10vw);
         opacity: 0;
+        display: block;
     }
     100% {
-        opacity: 1;
         transform: translateX(0vw);
+        opacity: 1;
+        display: block;
     }
 }
 
