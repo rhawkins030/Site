@@ -34,9 +34,7 @@
 }
 
 .gradTxt {
-    background: radial-gradient(var(--moonLight) 0%, var(--moon2) 100%);
-    background-clip: text;
-    color: transparent;
+    color: radial-gradient(var(--moonLight) 0%, var(--moon2) 100%);
 }
 
 .comeUp {
